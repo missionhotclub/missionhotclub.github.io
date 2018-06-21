@@ -46,6 +46,11 @@ h6 {
   background-color: #212529 !important;
 }
 
+.text-faded-with-background {
+  color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
 }
@@ -169,7 +174,9 @@ img::-moz-selection {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/header.jpg");
+  /*background-image: url("../img/dolores.jpg");*/
+  /*background-image: url("../img/header.jpg");*/
+  background-image: url("../img/gallery.png");
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
